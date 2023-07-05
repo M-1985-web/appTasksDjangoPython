@@ -1,0 +1,17 @@
+<!--hereda de layouts/base.html-->
+{% extends 'layouts/base.html' %}
+
+{% block content %}
+
+{% load static %}
+
+<!-- el h1 trabaja con motores de plantillas de python-->
+<h1>{{ title }}</h1>
+
+<img src="{% static 'avatar.png' %}" alt="" width="100">
+
+<p>Python es un lenguaje de programación interpretado, de alto nivel y fácil de leer. Se caracteriza por tener una sintaxis clara y concisa, lo que lo convierte en una excelente opción para principiantes y programadores que desean escribir código de manera rápida y eficiente.</p>
+
+<p>Es multiplataforma, esto quiere decir que podrás crear aplicaciones en el sistema operativo que te toque trabajar: Windows, Linux, IOS, siendo este muy portable.</p>
+
+{% endblock %}
