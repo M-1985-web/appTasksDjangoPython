@@ -1,6 +1,8 @@
 # created by virtualenv automatically
 vent
 venv
+Scripts
+Lib
 pyvenv.cfg
 db.sqlite3
 __pycache__
