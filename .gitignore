@@ -1,5 +1,6 @@
 # created by virtualenv automatically
 venv
+pyvenv.cfg
 db.sqlite3
 __pycache__
 staticfiles
