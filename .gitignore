@@ -1,10 +1,13 @@
 # created by virtualenv automatically
 vent
 venv
-Scripts
-Lib
-pyvenv.cfg
+
+
+
 db.sqlite3
 __pycache__
 staticfiles
 
+pyvenv.cfg
+Lib
+Scripts
