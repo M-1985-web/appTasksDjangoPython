@@ -7,7 +7,7 @@ from .forms import CreateNewTask, CreateNewProject
 # primer funcion que retorne un mensaje al cliente o navegador
 def index(request):
     #return HttpResponse("Index Page")
-    title = 'Django y Python con funcion index renderizada'
+    title = 'Proyecto desarrollado con Django y Python con funcion index renderizada'
     return render(request, 'index.html', {
         #diccionario: clave valor
         'title': title
@@ -24,7 +24,7 @@ def about(request):
 def saludar(request, username):
     print(username)
     #creamos un parametro que va a ir cambiando
-    return HttpResponse("<h1>Hola Mundo desde Mi App Django, desarrollada con Python %s</h1>" % username)
+    return HttpResponse("<h1>Hola Mundo desde Mi App %s</h1>" % username)
     # concatenacion "<h2>Hello %s</h2>" % username
 
 
